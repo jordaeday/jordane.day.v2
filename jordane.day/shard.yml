@@ -1,0 +1,23 @@
+name: websitev2
+version: 0.1.0
+
+dependencies:
+  router:
+    github: tbrand/router.cr
+
+# authors:
+#   - name <email@example.com>
+
+# description: |
+#   Short description of websitev2
+
+# dependencies:
+#   pg:
+#     github: will/crystal-pg
+#     version: "~> 0.5"
+
+# development_dependencies:
+#   webmock:
+#     github: manastech/webmock.cr
+
+# license: MIT

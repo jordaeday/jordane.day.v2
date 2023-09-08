@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <style>
+            body {
+                overflow-x: hidden;
+            }
+            html {
+                background-color: #E1E5EE;
+                -ms-overflow-style: none;  /* IE and Edge */
+                scrollbar-width: none;  /* Firefox */
+            }
+            html::-webkit-scrollbar {
+                display: none; /* Chrome, Safari, Opera*/
+            }
+            #header {
+                color: #71677C;
+                height: 20%;
+                font-size: 56px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: 'Rubik Glitch', Courier, monospace;
+            }
+            #navbar {
+                position: sticky;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #71677C;
+                color: #f0f0f0;
+                font-size: 30px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                top: 0;
+                font-family: 'Inter';
+                font-weight: 700;
+                width: 100%;
+                padding-left: 8px;
+                padding-right: 8px;
+                margin-left: -8px;
+                margin-right: -8px;
+            }
+            #footer {
+                position: sticky;
+                display: block;
+                float: right;
+                bottom: 5px;
+                right: 5px;
+                color: #71677C;
+                transition: 0.5s ease-in-out;
+                /* animation-name: footer-rotate;
+                animation-duration: 0.5s;
+                animation-direction: alternate; */
+            }
+            .icons {
+                justify-content: right;
+            }
+            a { 
+                text-decoration: none; 
+                color: #f0f0f0;
+                padding-left: 20px;
+            }
+            button {
+                all: unset;
+            }
+            #footer:hover {
+                transform: rotate(-45deg);
+                cursor: pointer;
+            }
+            button:hover {
+                cursor: pointer;
+            }
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Rubik+Glitch&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />  
+    </head>
+    <body>
+        <div id = header>
+            Jordan Day
+        </div>
+        <div id = navbar>
+            <a href="/">home</a>
+            <a href="/projects">projects</a>
+            <a href="/resume">resume</a>
+            <a href="/about-me">about me</a>
+        </div>
+        <object data = "/resume.pdf" type="application/pdf" width="50%" height="100%" style="display:block; margin-left: auto; margin-right: auto; margin-top: 15px;"></object>
+        <div id = footer>
+            <span class="material-symbols-outlined" style = "font-size: 60px;" id="links">add</span>
+        </div>
+    </body>
+</html>
